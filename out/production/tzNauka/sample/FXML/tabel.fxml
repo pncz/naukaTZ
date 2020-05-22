@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerTabel">
+   <children>
+      <TabPane fx:id="tabPane" layoutX="200.0" layoutY="-1.0" prefHeight="400.0" prefWidth="1166.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="january" text="Январь">
+               <content>
+                  <TableView fx:id="januaryTable" prefHeight="371.0" prefWidth="1145.0" />
+               </content></Tab>
+          <Tab fx:id="february" text="Февраль">
+               <content>
+                  <TableView fx:id="februaryTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="march" text="Март">
+               <content>
+                  <TableView fx:id="marchTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="april" text="Апрель">
+               <content>
+                  <TableView fx:id="aprilTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="may" text="Май">
+               <content>
+                  <TableView fx:id="mayTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="june" text="Июнь">
+               <content>
+                  <TableView fx:id="juneTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="july" text="Июль">
+               <content>
+                  <TableView fx:id="julyTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="august" text="Август">
+               <content>
+                  <TableView fx:id="augustTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="september" text="Сентябрь">
+               <content>
+                  <TableView fx:id="septemberTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="october" text="Октябрь">
+               <content>
+                  <TableView fx:id="octoberTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="november" text="Ноябрь">
+               <content>
+                  <TableView fx:id="novemberTable" prefHeight="200.0" prefWidth="200.0" />
+               </content></Tab>
+            <Tab fx:id="december" text="Декабрь">
+               <content>
+                  <TableView fx:id="decemberTable" prefHeight="371.0" prefWidth="726.0" />
+               </content></Tab>
+        </tabs>
+      </TabPane>
+      <Label layoutX="14.0" layoutY="-7.0" prefHeight="46.0" prefWidth="129.0" text="Департаменты">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listView" layoutY="29.0" prefHeight="372.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

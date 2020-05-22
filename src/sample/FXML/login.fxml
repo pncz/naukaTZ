@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerLogin">
+   <children>
+      <Button fx:id="listDepartament" layoutX="90.0" layoutY="107.0" mnemonicParsing="false" onAction="#departamentAction" prefHeight="37.0" prefWidth="220.0" text="Справочник отделов">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="listEmployee" layoutX="90.0" layoutY="171.0" mnemonicParsing="false" onAction="#employeeAction" prefHeight="37.0" prefWidth="220.0" text="Справочник сотрудников">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="tabel" layoutX="90.0" layoutY="44.0" mnemonicParsing="false" onAction="#tabelAction" prefHeight="37.0" prefWidth="220.0" text="Табель">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
